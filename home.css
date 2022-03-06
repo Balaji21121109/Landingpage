@@ -64,11 +64,10 @@
     font-size: 20px;
     background-color: rgb(3,118,184);
     color: white;
-    border: 2px solid red;
+   
 }
 .main{
     width: 80%;
-    height: 800px;
     background-color: white;
     margin: auto;
     border: 2px solid rgb(250, 245, 245);
@@ -79,7 +78,7 @@
     color: rgb(91,94,139);
 }
 #open_library{
-    border: 1px solid red;
+   
     width: 100%;
     height: 200px;
     display: flex;
@@ -87,7 +86,7 @@
 .open_btn{
     height: 100%;
     width: 3%;
-    border: 1px solid red;
+    
     margin-left: 20px;
 
 }
@@ -98,7 +97,7 @@
 
 }
 .open_tags{
-    border: 1px solid red;
+   
 width: 28%;
 height: 100%;
 margin-left: 20px;
@@ -118,16 +117,35 @@ background-color: rgb(252,251,247);
 }
 .class_pic{
     width: 20%;
-    border: 1px solid red;
+    
     height: 100%;
     margin-left: 20px;
     text-align: center;
 }
-.class_img{
-    height: 70%;
-    width: 80%;
-}
-.class_but{
-    margin-top: 10px;
+.clas_img{
+    width: 70%;
     
+    margin: auto;
+    height: 80%;
+}
+.class_buttons{
+    width: 70%;
+    height: 16%;
+   
+    margin: auto;
+    margin-top: 9px
+}
+.class_button{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    background-color: rgb(3,118,184);
+    color: white;
+    font-size: 20px;
+    
+}
+.class_picture{
+    width: 100%;
+    height: 95%;
+    margin-top: 10px;
 }
