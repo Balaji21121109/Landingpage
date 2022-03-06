@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,22 @@
     <title>Open Libary</title>
     <link rel="stylesheet" href="home.css">
 </head>
+
 <body style="background-color: rgb(225,220,197);">
-<!---header started-->
+    <!---header started-->
     <header>
-    <div id="header">
-        <img id="nav_img"src="https://tse1.mm.bing.net/th?id=OIP.OXJL7w6VvGXSGgGd2_rCyAHaBi&pid=Api&P=0&w=508&h=105" alt="img"/>
-        <button id="nav_but">
+        <div id="header">
+            <img id="nav_img" src="https://tse1.mm.bing.net/th?id=OIP.OXJL7w6VvGXSGgGd2_rCyAHaBi&pid=Api&P=0&w=508&h=105" alt="img" />
+            <button id="nav_but">
             <img src="https://tse3.mm.bing.net/th?id=OIP.7pqZ9pRqXXR67azTEN89ugHaFc&pid=Api&P=0&w=214&h=158" alt="img1"/>
         </button>
-    </div>
-</header>
-<!--heaader completed-->
-<nav id="navig">
-<img id="nav_imgg"src="https://openlibrary.org/images/logo_OL-lg.png" src="img">
+        </div>
+    </header>
+    <!--heaader completed-->
+    <nav id="navig">
+        <img id="nav_imgg" src="https://openlibrary.org/images/logo_OL-lg.png">
 
-<select class="nav_sele">
+        <select class="nav_sele">
     <option>Browse</option>
     <option>Subjects</option>
     <option>Libary Explorer</option>
@@ -31,7 +33,7 @@
     <option>Random Book</option>
     <option>Advance Search</option>
 </select>
-<select class="nav_sele">
+        <select class="nav_sele">
     <option>More</option>
     <option>Subjects</option>
     <option>Libary Explorer</option>
@@ -41,91 +43,106 @@
     <option>Random Book</option>
     <option>Advance Search</option>
 </select>
-<input id="nav_search" type="text" placeholder="search book"/>
-<img id="nav_ii"src="https://th.bing.com/th/id/R.e133029a9d2d6af4dc98fdfafe1c3924?rik=c9kWNVY5sc0Kng&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fg%2fY%2fP%2fo%2fh%2fU%2fsearch-logo-hi.png&ehk=P6kODexMGBmdwzU4vP3r6F6qBj0%2b1vivzypylcz2lng%3d&risl=&pid=ImgRaw&r=0"/>
-<a href="login.html"><h1 class="lo"> login</h1></a>
-<a href="register.html"><button class="lo" id="lol">Sign-up</button></a>
-</nav>
-<!------------------nav ended-------------------------------------------------------------------------->
-<div class="main">
-<p id="pop">Wellcome to open Library</p>
-<div id="open_library">
-    <div class="open_btn">
-        <button><h1><</h1></button>
-        </div>
-        <div class="open_tags">
-            <img class="open_img" src="https://openlibrary.org/static/images/onboarding/read.png"/>
-            <div>
-                <h3 style="margin-left:20px;">Read Free Library<br> Books Online</h3>
-                <p style="margin-left:20px">Millions of books avaliable<br> throught controlled Digital Landing</p>
+        <input id="nav_search" type="text" placeholder="search book" />
+        <img id="nav_ii" src="https://th.bing.com/th/id/R.e133029a9d2d6af4dc98fdfafe1c3924?rik=c9kWNVY5sc0Kng&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fg%2fY%2fP%2fo%2fh%2fU%2fsearch-logo-hi.png&ehk=P6kODexMGBmdwzU4vP3r6F6qBj0%2b1vivzypylcz2lng%3d&risl=&pid=ImgRaw&r=0"
+        />
+        <a href="login.html">
+            <h1 class="lo"> login</h1>
+        </a>
+        <a href="register.html"><button class="lo" id="lol">Sign-up</button></a>
+    </nav>
+    <!------------------nav ended-------------------------------------------------------------------------->
+    <div class="main">
+        <p id="pop">Wellcome to open Library</p>
+        <div id="open_library">
+            <div class="open_btn">
+                <button onclick="fun23()"><h1><</h1></button>
             </div>
-            
-            
-             
-        </div>
-        <div class="open_tags">
-            <img class="open_img" src="https://openlibrary.org/static/images/onboarding/library_explorer.png"/>
-            <div>
-                <h3 style="margin-left:20px;">Read Free Library<br> Books Online</h3>
-                <p style="margin-left:20px">Millions of books avaliable<br> throught controlled Digital Landing</p>
+            <div class="open_tags">
+                <img class="open_img" id="bimg1" src="https://openlibrary.org/static/images/onboarding/read.png" />
+                <div>
+                    <h3 id="bh3" style="margin-left:20px;">Read Free Library<br> Books Online</h3>
+                    <p id="bp1" style="margin-left:20px">Millions of books avaliable<br> throught controlled Digital Landing</p>
+                </div>
+
+
+
             </div>
-        </div>
-        <div class="open_tags">
-            <img class="open_img" src="https://openlibrary.org/static/images/onboarding/track.png"/>
-            <div>
-                <h3 style="margin-left:20px;">Read Free Library<br> Books Online</h3>
-                <p style="margin-left:20px">Millions of books avaliable<br> throught controlled Digital Landing</p>
+            <div class="open_tags">
+                <img class="open_img" id="bimg2" src="https://openlibrary.org/static/images/onboarding/library_explorer.png" />
+                <div>
+                    <h3 id="bh33" style="margin-left:20px;">Try the virtual Library <br> Explorer</h3>
+                    <p id="bp2" style="margin-left:20px">Millions of books avaliable<br> throught controlled Digital Landing</p>
+                </div>
             </div>
-        </div>
-
-        <div class="open_btn">
-            <button><h1>></h1></button>
-            </div>
-
-</div><!------------opennlibraty div-->
-
-<!----open library closed-->
-<h1>Classic Books</h1>
-<div class="classic">
-    <div class="open_btn">
-        <button><h1><</h1></button>
-        </div>
-
-<div class="class_pic">
-<img class="class_img" src="https://covers.openlibrary.org/w/id/10858579-M.jpg" alt="dmf"/>
-<button class="class_but">reda</button>
-</div>
-
-<div class="class_pic">
-    
-</div>
-<div class="class_pic">
-    
-</div>
-<div class="class_pic">
-    
-</div>
-
-
-
-
-
-
-
-
-
-
-        <div class="open_btn">
-            <button><h1>></h1></button>
+            <div class="open_tags">
+                <img class="open_img" id="bimg3" src="https://openlibrary.org/static/images/onboarding/track.png" />
+                <div>
+                    <h3 id="bh333" style="margin-left:20px;">Keep Track of your <br> Favorite Books</h3>
+                    <p id="bp3" style="margin-left:20px">Millions of books avaliable<br> throught controlled Digital Landing</p>
+                </div>
             </div>
 
-</div>
+            <div class="open_btn">
+                <button onclick="fun24()"><h1>></h1></button>
+            </div>
+
+        </div>
+        <!------------opennlibraty div-->
+
+        <!----open library closed-->
 
 
 
-</div><!-----------white color div-->
+
+    </div>
+
 
 
 
 </body>
+
 </html>
+<script>
+    function fun23() {
+        var img1 = document.getElementById('bimg1')
+        img1.src = 'https://openlibrary.org/static/images/onboarding/read.png'
+        var i = document.getElementById('bh3').textContent = 'Read Free Library Books Online'
+        var ii = document.getElementById('bp1').textContent = 'Millions of books avaliable throught controlled Digital Landing'
+
+
+        var img1 = document.getElementById('bimg2')
+        img1.src = 'https://openlibrary.org/static/images/onboarding/library_explorer.png'
+        var i = document.getElementById('bh33').textContent = 'Try the virtual Library Explorer'
+        var ii = document.getElementById('bp2').textContent = 'Millions of books avaliable throught controlled Digital Landing'
+
+
+
+        var img1 = document.getElementById('bimg3')
+        img1.src = 'https://openlibrary.org/static/images/onboarding/track.png'
+        var i = document.getElementById('bh333').textContent = 'Keep Track of your Favorite Books'
+        var ii = document.getElementById('bp3').textContent = 'Millions of books avaliable throught controlled Digital Landing'
+    }
+
+
+
+    function fun24() {
+        var img1 = document.getElementById('bimg1')
+        img1.src = 'https://openlibrary.org/static/images/onboarding/read.png'
+        var i = document.getElementById('bh3').textContent = 'Read Free Library Books Online'
+        var ii = document.getElementById('bp1').textContent = 'Millions of books avaliable throught controlled Digital Landing'
+
+
+        var img1 = document.getElementById('bimg2')
+        img1.src = 'https://openlibrary.org/static/images/onboarding/library_explorer.png'
+        var i = document.getElementById('bh33').textContent = 'Try the virtual Library Explorer'
+        var ii = document.getElementById('bp2').textContent = 'Millions of books avaliable throught controlled Digital Landing'
+
+
+
+        var img1 = document.getElementById('bimg3')
+        img1.src = 'https://openlibrary.org/static/images/onboarding/feedback.png'
+        var i = document.getElementById('bh333').textContent = 'Send us feedback'
+        var ii = document.getElementById('bp3').textContent = 'Millions of books avaliable throught controlled Digital Landing'
+    }
+</script>
